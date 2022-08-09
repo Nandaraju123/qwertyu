@@ -1,0 +1,75 @@
+#python program to get current time,date?
+
+
+
+# import datetime
+# date = datetime.datetime.now()
+# print(date)
+
+# python program to create a text file with timestamp?
+
+# from datetime import datetime
+
+# date = datetime.now().strftime("%y_%m_%d-%I:%S:%M:%p")
+# print(f"Devops codes_{date}")
+
+
+#python program to check if an URL is valid or not?
+
+
+# import validators
+
+# valid = validators.url('https://www.google.com/')
+
+# if valid == True:
+#     print(url is valid)
+# else:
+#     print(url is invalid)
+
+
+#python program to validate an IP address?
+
+
+# def validate_ip(s):
+#     if s.count('.')!=3:
+#         return 'inavlid ip address'
+        
+#     ip_list =list(map(str,s.split('.')))
+    
+#     for elements in ip_list:
+#         if int(elements)<0 and len(elements)!=1:
+#             return 'Invald ip address'
+    
+#     return "valid ip address"
+    
+# print(validate_ip('225.1.2.2'))
+
+
+# import re
+# regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
+ 
+# def check(email):
+#     if(re.fullmatch(regex, email)):
+#         print("Valid Email")
+ 
+#     else:
+#         print("Invalid Email")
+# if __name__ == '__main__':
+ 
+#     email = "ankitrai326@gmail.com"
+    
+# check(email)
+
+# python program to find files having particular extension? (ex:  find ".txt" or ".exe" files in C:/Users/files/ directory)
+
+# import os
+# filename, file_extension = os.path.splitext('/path/to/somefile.ext')
+# print(filename)
+# print(file_extension)
+
+
+
+
+
+
+
